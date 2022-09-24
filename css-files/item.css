@@ -1,0 +1,140 @@
+
+.style-item,.style-item-1{
+    width: 680px;
+    height: 340px;
+    background-color: white;
+    border-style: solid;
+    border-color: rgb(184, 66, 207);
+    border-width:4px ;
+    border-radius: 12px;
+    position: absolute;
+    top: 200px;
+    left: -700px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* align-items: center; */
+    transition: left 1s;
+    
+}
+.style-item-1{
+    width: 680px;
+    height: 340px;
+    background-color: white;
+    border-style: solid;
+    border-color: rgb(184, 66, 207);
+    border-width:4px ;
+    border-radius: 12px;
+    position: absolute;
+    top: 200px;
+    left: -1400px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* align-items: center; */
+    transition: left 1s;
+}
+
+.infos-product{
+    width: 340px;
+    height: 300px;
+    background-color: white;
+    border-style: solid;
+    border-color: rgb(184, 66, 207);
+    border-width:2px ; 
+    
+    border: none;
+    position: absolute;
+    right: 20px;
+    /* margin-top: 24px; */
+   
+    
+}
+.picture{
+    /* width: 200px;
+    height: 300px; */
+    background-color: white;
+    border-style: solid;
+    border-color: rgb(184, 66, 207);
+    border-radius: 6px;
+    border-width:2px ; 
+    margin-left:20px ;
+    position: absolute;
+    top: 20px;
+    padding-left: 20px;
+    /* margin-top: 24px;  */
+}
+.product-title{
+    text-align: left;
+    margin-top: -7px;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Open Sans', sans-serif; 
+    font-weight:bolder;
+    font-size: larger;
+    margin-left: 20px;
+    font-size: 25px;
+}
+.product-price{
+    margin-top: 15px;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: bold;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.des{
+    font-size: 19px;
+    margin-bottom: 12px;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 400;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 18;
+}
+.product-desc{
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 400;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 18;
+   
+}
+
+.buy-btn-in-view{
+    width: 80px;
+    height: 50px;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 600;
+    background-color: rgb(184, 66, 207);
+    border-color: rgb(213, 197, 216);
+    border-width: 1px;
+    border-radius: 6px;
+    border-style: solid;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    margin-top: 6px;
+    transition:width ,0.15s ,  background-color ,0.15s ;
+}
+.buy-btn-in-view:hover{
+    width: 100px;
+}
+.buy-btn-in-view:active{
+    background-color: rgb(157, 68, 175);
+  }
+  .arrow{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    transition: box-shadow 0.15s ;
+    border-radius: 6px;
+    position: absolute;
+    top: -1px;
+    left: 4px;
+  }

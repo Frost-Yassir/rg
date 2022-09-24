@@ -1,0 +1,126 @@
+#bar{
+    background-color: white;
+    /* border-width: 2px;
+    border-style: solid;
+    border-color:rgb(184, 66, 207) ; */
+    border: 2px solid rgb(184, 66, 207) ;
+    border-radius: 6px;
+    position: fixed;
+    left: -3px;
+    top: 106px;
+    width: 170px;
+    height: 560px ;
+    /* display: flex;
+    align-items: center; */
+    z-index: 101;
+    padding-top: 0px;
+    transition: left 0.15s;
+    
+}
+
+.arrow-fow-side {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    transition: box-shadow 0.15s ;
+    border-radius: 6px;
+    position: fixed;
+    left: 140px;
+    top: 108px;
+    transition: left 0.15s;
+    background-color: rgb(184, 66, 207);
+    z-index: 100;
+   
+}
+
+.new{
+    width: 100px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 12px;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 600;
+    background-color: rgb(240, 222, 239);
+    border-color: rgb(184, 66, 207);
+    border-width: 1px;
+    border-radius: 6px;
+    border-style: solid;
+    color: rgb(184, 66, 207);
+    cursor: pointer;
+    transition:width 0.15s ;
+}
+.sold,.service,.help,.about,.contact{
+    width: 100px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 12px;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 600;
+    background-color: rgb(240, 222, 239);
+    border-color: rgb(184, 66, 207);
+    border-width: 1px;
+    border-radius: 6px;
+    border-style: solid;
+    color: rgb(184, 66, 207);
+    cursor: pointer;
+    transition:width 0.15s ;
+}
+.contact:hover{
+    width: 130px;
+}
+.about:hover{
+    width: 130px;
+}
+.help:hover{
+    width: 130px;
+}
+.service:hover{
+    width: 130px;
+}
+.sold:hover{
+    width: 130px;
+}
+.new:hover{
+    width: 130px;
+}
+.title{
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 600;
+    margin-left: 32px;
+    color: rgb(184, 66, 207);
+    text-decoration: underline;
+    margin-top: 12px;
+}
+.media-icon,
+.humbr img{
+    /* margin-top: 12px;
+    margin-left: 12px; */
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    transition: box-shadow 0.15s ;
+    border-radius: 6px;
+}
+.media-icon:hover{
+box-shadow: 1px 1px 10px black;
+} 
+.media{
+    display: flex;
+    border-width: 2px;
+    border-color: rgb(184, 66, 207);
+    border-style: solid;
+    margin-left: 12px;
+    margin-right: 12px;
+    justify-content: space-between;
+    margin-top: px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 6px;
+    position: absolute;
+}
+

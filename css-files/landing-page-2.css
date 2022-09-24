@@ -1,0 +1,327 @@
+body{
+}
+/* width */
+::-webkit-scrollbar {
+    width: 4px;
+    
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #ece8e8; 
+   
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(184, 66, 207); 
+    border-radius:6px;
+  
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(152, 71, 168); 
+  }
+
+.main-page{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  column-gap: 15px;
+  row-gap: 15px;
+  padding: 0px;
+  /* padding: 131px 170px 60px 170px; */
+}
+
+ 
+
+
+
+
+
+.items-grid-insider{
+/* display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center; */
+
+/* margin-top: 30px; */
+/* padding-left: 200px;
+padding-right: 200px; */
+ 
+ /*
+margin-right: 170px;
+margin-bottom: 80px; */
+
+}
+.item-infos{
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    display: grid;
+    grid-template-columns: 1fr ;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 0px;
+    margin-top: 12px;
+    
+}
+
+.item-name{
+ /* font-size: 14px; */
+ 
+}
+.item{
+background-color: rgb(226, 222, 222);
+box-shadow: 1px 1px 20px black;
+border-radius: 6px;
+transition: box-shadow 0.15s;
+
+}
+.item:hover{
+    box-shadow: 2px 2px 10px black;
+}
+.item-price{
+  font-weight: bolder;
+  margin-top: 6px;
+}
+.item-div-pic{
+padding-left: 20px;
+padding-right: 20px;
+padding-top: 20px;
+}
+.item-pic{
+    border-radius: 6px;
+    width: 100%;
+}
+.item-buy-btn-div{
+text-align: right;
+padding-top: 16px;
+}
+.item-buy-btn{
+    width: 80px;
+    height: 30px;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 600;
+    background-color: rgb(184, 66, 207);
+    border-color: rgb(213, 197, 216);
+    border-width: 1px;
+    border-radius: 6px;
+    border-style: solid;
+    color: white;
+    cursor: pointer;
+    transition:width ,0.15s ,  background-color ,0.15s ;
+    
+    
+   
+    /* transition: background-color 0.15s ; */
+}
+.item-buy-btn:hover{
+    width: 100px;
+}
+.item-buy-btn:active{
+  background-color: rgb(157, 68, 175);
+}
+.item-name,.item-price{
+      font-family: 'Cairo', sans-serif;
+      font-family: 'Open Sans', sans-serif;  
+} 
+
+
+/* ------------------------------------------------------------------------------ */
+
+.divi-style{
+  border-width:  1px;
+  border-style: solid;
+  border-color:transparent ;
+  text-align: center;
+  height: 100px;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  padding-right:8px ;
+  border-radius: 6px;
+  position: fixed;
+  background-color: rgb(247, 247, 247);
+  border-color:red ;
+ 
+}
+
+
+#box{
+  color: rgb(255, 19, 19);
+  font-family: 'Cairo', sans-serif;
+  font-family: 'Open Sans', sans-serif; 
+  position: fixed; 
+  right: 45%;  
+  height: 100px;
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  border-color: red;
+  
+}
+
+.ok-but{
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  display: flex;
+  align-items: center;
+  height: 20px;
+  background-color:transparent ;
+  border-color: rgb(199, 2, 2);
+  border-style: solid;
+  border-radius: 6px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  
+ 
+}
+.ok-but:hover{
+  background-color: rgb(173, 72, 72);
+ 
+}
+.about-us{
+display: grid;
+grid-template-columns: 1fr;
+height: 350px;
+background-color: rgb(238, 231, 235);
+position: absolute;
+top: -590px;
+transition: top 1s;
+border-radius: 100px;
+border-color: rgb(184, 66, 207);
+border-style: solid;
+border-width: 2px;
+text-align: center;
+word-wrap: break-word;
+font-family: 'Cairo', sans-serif;
+font-family: 'Open Sans', sans-serif; 
+padding: 12px;
+font-weight: bold;
+color:rgb(184, 66, 207) ;
+ }
+
+.title-of-about{
+  margin-top: 12px;
+  text-decoration: underline;
+}
+.text-of-about{
+  
+}
+
+
+/*                               login styles                      */
+.big-one{
+  display: flex;
+   justify-content: center;
+ }
+
+ .login-page{
+  height: 400px;
+  width: 600px;
+  background-color: white;
+  position: absolute;
+  
+  top:150px;
+  border-radius: 12px;
+  border-color:rgb(184, 66, 207) ;
+  border-style:solid ;
+  z-index: 70;
+  /* -webkit-transition: 0.5s;
+          transition: 1s; */
+  
+
+          transition: top 0.75s;
+ }
+
+ /*                                  Mail                       */
+ .log-title{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Cairo', sans-serif;
+  font-family: 'Open Sans', sans-serif; 
+  font-weight: bolder;
+  font-size: larger;
+  margin-top: 20px;
+  margin-bottom: 20px;
+ }
+ y{
+  margin-left: 3px;
+  color: rgb(184, 66, 207);
+  
+ }
+
+.mail-text,.pass-text{
+  display: flex;
+  justify-content: center;
+  font-family: 'Cairo', sans-serif;
+  font-family: 'Open Sans', sans-serif; 
+  font-weight: bold;
+  text-decoration: underline;
+  color:rgb(184, 66, 207) ;
+  margin-top: 8px;
+}
+
+.mail-div,.pass-div,.btn-div{
+  display: flex;
+  justify-content: center;
+  margin-top: 12px; 
+
+}
+.mail-req,.pass-req{
+  width: 500px;
+  height: 40px;
+  border-radius: 6px;
+  border-style: solid;
+  border-color: rgb(184, 66, 207);
+  padding-left: 20px;
+  font-family: 'Cairo', sans-serif;
+  font-family: 'Open Sans', sans-serif; 
+  font-weight: bold;
+  transition: box-shadow 0.15s;
+  padding-left: 30px;
+}
+.mail-req:focus{
+  outline:none ;
+  border-color: rgb(149, 57, 161);
+}
+.mail-req:hover{
+  box-shadow: 1px 1px  15px rgb(149, 57, 161);
+}
+.pass-req:hover{
+  box-shadow: 1px 1px  15px rgb(149, 57, 161);
+}
+.pass-req:focus{
+  outline:none ;
+  border-color: rgb(149, 57, 161);
+}
+.log-btn{
+  margin-top: 12px;
+  width: 100px;
+  height: 40px;
+  font-family: 'Cairo', sans-serif;
+  font-family: 'Open Sans', sans-serif; 
+  font-weight: 600;
+  background-color: rgb(184, 66, 207);
+  border-color: rgb(213, 197, 216);
+  border-width: 1px;
+  border-radius: 6px;
+  border-style: solid;
+  color: white;
+  cursor: pointer;
+  transition:width 0.15s ;
+}
+.log-btn:hover{
+  width: 150px;
+}
+.forget-pass{
+  position: absolute;
+  bottom: 20px;
+  left: 12px;
+}
